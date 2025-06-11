@@ -1,6 +1,6 @@
-## 1. Setup System
+# 1. Setup System
 
-### <----- _MacOS_ ----->
+# <----- _MacOS_ ----->
 ```bash
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -16,7 +16,7 @@ brew services start mongodb/brew/mongodb-community
 
 ---
 
-### <----- _Ubuntu_ ----->
+# <----- _Ubuntu_ ----->
 ```bash
 # Install Python 3 and pip
 sudo apt install python3 python3-pip -y
@@ -40,7 +40,7 @@ sudo systemctl enable mongod
 
 ---
 
-## 2. Setup virtual environment
+# 2. Setup virtual environment
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate  # Trên Ubuntu hoặc MacOS
@@ -48,14 +48,14 @@ source .venv/bin/activate  # Trên Ubuntu hoặc MacOS
 
 ---
 
-## 3. Install library python
+# 3. Install library python
 ```bash
 pip install gradio langchain langchain-community langchain-openai openai pymongo python-dotenv
 ```
 
 ---
 
-## 4. Start project
+# 4. Start project
 ```bash
 python app.py
 ```
